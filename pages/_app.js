@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { pageviewm, event } from "./utils";
+import { pageviewm, event } from "../helper/utils";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
